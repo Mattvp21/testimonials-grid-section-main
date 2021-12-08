@@ -36,6 +36,7 @@ body {
 .box {
     padding: 2rem;
     border-radius: 10px;
+    box-shadow: 0px 15px 20px hsl(246deg 33% 74%);
 }
 
 .box-1 {
@@ -51,7 +52,6 @@ body {
     background-color: var(--white);
     grid-column: 1;
     grid-row: 2;
-    box-shadow: 0px 15px 20px hsl(246deg 33% 74%);
     
 }
 
@@ -64,7 +64,6 @@ body {
     background-color: var(--white);
     grid-column: 4;
     grid-row:1 / span 2;
-    box-shadow: 0px 15px 20px hsl(246deg 33% 74%);
 }
 
 /* Images */
